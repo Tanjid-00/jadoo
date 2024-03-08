@@ -1,0 +1,23 @@
+#container {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+#menu-items.active {
+  display: flex;
+}
+
+/* .scroll-hidden {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+} */
+
+/* Adjust as needed */
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Adjust as needed */
+/* .scroll-hidden::-webkit-scrollbar-thumb {
+  background-color: transparent;
+} */
